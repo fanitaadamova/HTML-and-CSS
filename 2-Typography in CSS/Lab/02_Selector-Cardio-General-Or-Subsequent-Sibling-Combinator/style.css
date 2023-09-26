@@ -1,0 +1,10 @@
+/* The general sibling combinator (~) separates two selectors and matches all 
+iterations of the second element, that are following the first element
+(though not necessarily immediately), and are children of the same parent element.*/
+
+/* Всички втори елементи(span), които следват първия(p) */
+
+
+p~span {
+    color: red;
+}
