@@ -1,0 +1,26 @@
+html{
+    font-family:Helvetica, sans-serif;
+    margin: 50px;
+}
+
+header h1{
+    display: inline-block;
+    padding: 0px;
+}
+
+nav{
+    display: inline-block;
+    color: lightgreen;
+    margin-left: 50px;    
+}
+
+li{
+    display: inline-block;
+    margin: 6px;
+ 
+}
+ul a{
+    color: lightgreen;
+    size: 12px;
+    text-decoration: none;    
+}
