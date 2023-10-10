@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font: 20px Helvetica, sans-serif;
+}
+
+div.container {
+    padding: 3rem;
+    max-width: 15vw;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+
+}
+
+span {
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    align-content: center;
+}
+
+
+span:nth-child(1){order: 9}
+span:nth-child(3){order: 10}
+span:nth-child(7){order: 11}
+span:nth-child(10){order: 12}
+span:nth-child(11){order: -1}
+
+
+
+

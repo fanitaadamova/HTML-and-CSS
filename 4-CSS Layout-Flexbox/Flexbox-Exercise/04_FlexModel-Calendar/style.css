@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    max-width: 65vw;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.notes {
+    flex-direction: column;
+}
+
+span {
+    padding: 2em 2em 5em 2em;
+    border: 1px solid black;
+    text-align: center;
+    flex-grow: 1;
+    /*така казваме да заемат целия ред*/
+}
+
+.notes span{
+    padding-top: 0.5em;
+}
+
+section.week span:nth-child(1),
+section.week span:nth-child(7) {
+    flex-basis: 100%;
+}
