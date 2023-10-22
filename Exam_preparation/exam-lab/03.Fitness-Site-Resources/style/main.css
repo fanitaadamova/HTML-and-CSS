@@ -1,0 +1,78 @@
+/*---------MAIN-------*/
+
+.coaches {
+    background-color: #efefef;
+
+}
+
+
+
+h3 {
+    font-size: 2em;
+    margin: 0 auto;
+    padding: 2em 0 1em 0;
+}
+
+h3::after {
+    content: '';
+    display: block;
+    text-align: center;
+    width: 3ch;
+    background-color: #d53f3f;
+    padding: 0.1em;
+    margin: 0.5em auto;
+}
+
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    flex: 1 1 30%;
+    display: block;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.image {
+    border-radius: 1em;
+    overflow: hidden;
+
+}
+
+.cards img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.welcome .media {
+    width: 5em;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.coaches .media {
+    border-radius: 0.5em;
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+
+.card-1 p:first-of-type,
+.card-2 p:first-of-type,
+.card-3 p:first-of-type{
+    color:  #d53f3f;
+    font-weight: bold;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p{
+    padding: 0.5em;
+}

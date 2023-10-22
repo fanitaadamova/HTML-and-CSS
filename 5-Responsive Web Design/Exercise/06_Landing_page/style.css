@@ -1,0 +1,299 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Stardos+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font: 16px/1.4 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    padding: 2em 12em;
+    background-image: url('data:image/jpeg;base64,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');
+}
+
+/* SECTION HEADER*/
+.header {
+    padding-left: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+.header-p {
+    text-transform: uppercase;
+    font-family: Amatic SC;
+    font-weight: bold;
+    color: #4f4e4e;
+    font-size: 1.5em;
+    line-height: initial;
+    margin-top: -0.5em;
+}
+
+
+.header-purple {
+    font-family: Stardos Stencil, serif;
+    font-size: 3em;
+    color: #923394;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+
+p {
+    font-size: 1.5em;
+}
+
+section p {
+    margin-bottom: 1.2em;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 3em;
+}
+
+.navigation ul li {
+    display: block;
+    font-size: 1.5em;
+}
+
+/* SECTION MAIN*/
+
+/*Main in body - padding for all section*/
+
+main {
+    padding-bottom: 10em;
+}
+
+main section.need-a-website,
+main section.our-team,
+main section.testimonials {
+    padding: 10em 10em 0 10em;
+}
+
+section.need-a-website {
+    margin-right: 2em;
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.containts {
+    flex: 1 1 60%;
+}
+
+.image {
+    flex: 1 1 30%;
+}
+
+.containts p a {
+    font-size: 0.8em;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 0.2em;
+    padding: 0.4em 0.8em;
+}
+
+
+section.our-team .title,
+section.testimonials .title,
+.dumy {
+    display: flex;
+    justify-content: center;
+}
+
+
+.our-team .dumy-span,
+.testimonials .dumy-span,
+.sign-up .dumy .dumy-span {
+    padding: 0.5em 5em;
+    border-bottom: 5px solid black;
+}
+
+
+.our-team-cards,
+.testimonials-cards {
+    padding-top: 4em;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 5em
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 27%;
+}
+
+.our-team-cards .card p:first-of-type {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+
+.our-team-cards .card p:last-of-type {
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+section.sign-up {
+    padding: 3em 0 5em 0;
+    background-color: #68347b;
+    color: white;
+    margin: 10em -12em;
+    text-align: center;
+}
+
+
+.testimonials-cards .card p:nth-of-type(2) {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.testimonials-cards .card p:first-of-type {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.input {
+    margin-top: 4em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1em
+}
+
+.input input {
+    width: 35em;
+    height: 4em;
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 0.2em;
+}
+
+.input a {
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 0.2em;
+    padding: 0.7em 0.8em;
+}
+
+
+.input p {
+    margin-bottom: initial;
+
+}
+
+/* Footer*/
+.footer {
+    display: flex;
+    gap: 5em;
+    font-size: 1.5em;
+    padding-left: 5em;
+    padding-top: 5em;
+    border-top: 2px solid rgb(114, 113, 113);
+    margin: 0  -12em;
+    padding: 10em 14em;;
+}
+
+.footer section {
+    padding: 1em;
+    display: inline flex;
+    flex-direction: column;
+    flex: 0 1 30%;
+}
+
+.second-section div {
+    display: flex;
+    gap: 2em;
+}
+
+.second-section ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .first-section h3 {
+    font-family: Stardos Stencil, serif;
+    font-size: 2em;
+    color: black;
+}
+
+.footer .first-section {
+    justify-content: center;
+}
+
+
+
+.footer section p {
+    font-size: 1.1em;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+
+
+/*Responsive */
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 10px;
+    }
+
+    .header {
+        padding-bottom: 3em;
+    }
+
+    main section.need-a-website,
+    main section.our-team,
+    main section.testimonials {
+        padding: 0;
+    }
+
+    body,
+    main section {
+        padding: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        color: black
+    }
+
+    .footer ul li {
+        color: black
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        font-size: 12px;
+    }
+
+    .header-purple,
+    h2 {
+        font-size: 2.8em;
+
+    }
+
+
+    .header-p {
+        font-size: 1.5em;
+    }
+}

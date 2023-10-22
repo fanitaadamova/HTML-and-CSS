@@ -1,0 +1,52 @@
+/* TODO */
+
+@media screen and (max-width:600px) {
+    #main-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5em;
+    }
+
+    #main-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main-menu img {
+        width: max-content;
+    }
+
+    #main-menu ul li {
+        border: 1px solid #e52236;
+    }
+
+    #left-aside {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #left-aside article {
+        border-bottom: initial;
+    }
+
+
+#news {
+    display: flex;
+    flex-wrap: wrap;
+    width: initial;
+}
+
+#news article {
+    width: initial;
+    flex: 1 0 100%;
+    margin: initial;
+}
+
+#right-aside,
+footer ul {
+    width: initial
+}
+
+}

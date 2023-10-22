@@ -1,0 +1,349 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+body {
+    font: 16px/1.4 Helvetica, sans-serif;
+    color: #454545;
+}
+
+h1,
+h2 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* For ALL sections*/
+.header .dumy .dumy-span {
+    padding: 0 1.5em;
+    border-top: 5px solid #34b1c4;
+}
+
+.welcome-to-our-company .dumy .dumy-span {
+    padding: 0.2em 2.5em;
+    border-top: 5px solid #34b1c4;
+}
+
+.our-service .dumy .dumy-span {
+    padding: 0.2em 2.5em;
+    border-top: 5px solid #494a4a;
+}
+
+.newsletter .dumy .dumy-span {
+    padding: 0.2em 3.5em;
+    border-top: 5px solid white;
+}
+
+.header,
+.welcome-to-our-company,
+.our-service .cards,
+.footer {
+    padding: 2em 12em 2em 8em;
+}
+
+.our-service .title,
+.our-service .dumy {
+    padding: 0.2em 12em 0.2em 8em;
+}
+
+/* SECTION HEADER*/
+.header {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    padding-bottom: 0.3em;
+    display: flex;
+    gap: 2em;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h1 span {
+    color: #34b1c4;
+}
+
+/* -----------MAIN--------------------------------------------*/
+.get-started {
+    display: flex;
+    max-height: 44em;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-image: url('images/slide2.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+/* Opacity only in the background-color*/
+.get-started .containt {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 46em;
+    margin: 2em 12em;
+    color: white;
+}
+
+.get-started .containt p.first,
+.get-started .containt p.second {
+    font-size: 3.9em;
+}
+
+.get-started .containt p.third {
+    padding-top: 1em;
+}
+
+.get-started .containt p.third a {
+    padding: 0.3em 1.2em;
+    font-size: 2.5em;
+    text-decoration: none;
+    color: white;
+    border-radius: 1em;
+    background-color: #008cba;
+}
+
+.welcome-to-our-company,
+.newsletter {
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-to-our-company h2,
+.newsletter h2 {
+    padding-bottom: 0.3em;
+}
+
+.welcome-to-our-company .p-second {
+    padding-top: 2em;
+}
+
+.welcome-to-our-company .p-second a {
+    padding: 0.7em 1.7em;
+    text-decoration: none;
+    color: white;
+    border-radius: 2em;
+    background-color: #454545
+}
+
+.our-service {
+    padding-top: 2em;
+    background-color: #eef0f1;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*CARD section--------------------------------------------------------------------------------*/
+
+.our-service .cards {
+    display: flex;
+    flex: 1 1 27%;
+    gap: 1.5em;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.4);
+    border-radius: 0.3em;
+    overflow: hidden;
+}
+
+.our-service img {
+    width: 100%;
+    height: auto;
+}
+
+.our-service .content {
+    position: relative;
+    padding: 2em 2em 4em 2em;
+    background-color: white;
+}
+
+.our-service .content .desc {
+    padding: 0.5em 0.5em 2em 0;
+}
+
+.our-service .btn a {
+    padding: 0.7em 1.7em;
+    background-color: #454545;
+    border-radius: 0.3em;
+    color: white;
+    text-decoration: none;
+}
+
+/*.newsletter */
+.newsletter {
+    background-color: #393f43;
+    color: white;
+}
+
+.newsletter {
+    padding: 2em;
+}
+
+button {
+    background-color: #6bbfff;
+    width: 10em;
+    padding: 0.5em;
+    border: #6bbfff;
+    border-radius: 0.3em;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+#email {
+    width: 30em;
+    background-color: #545a5e;
+    padding: 0.5em;
+    border: #545a5e;
+    border-radius: 0.3em;
+    color: #6a7073;
+    ;
+    font-style: italic;
+}
+
+.newsletter .p-first {
+    padding: 1em;
+}
+
+/*FOOTER*/
+footer{
+background-color: #2f3539;
+color: white;
+}
+
+.footer {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.footer section ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.footer .icons{
+    display: flex;
+    color:white;
+    gap: 1em;
+}
+.address{
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.phone{
+    padding-top: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1300px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .navigation ul {
+        gap: 1em;
+    }
+
+
+    .header,
+    .welcome-to-our-company,
+    .our-service,
+    .newsletter {
+        font-size: 1em;
+    }
+
+
+
+    .header,
+    .welcome-to-our-company,
+    .our-service {
+        padding: 2em 8em;
+    }
+
+
+    .get-started .containt {
+        width: 33%;
+    }
+
+    .get-started .containt p.first,
+    .get-started .containt p.second {
+        font-size: 2.1em;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    body {
+        font-size: 12px;
+    }
+
+
+    .our-service .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header,
+    .welcome-to-our-company,
+    .our-service .cards {
+        padding: 0;
+    }
+
+    .our-service .title,
+    .our-service .dumy {
+        padding: 0;
+    }
+
+    .get-started .containt p.third a {
+        font-size: initial;
+    }
+
+}

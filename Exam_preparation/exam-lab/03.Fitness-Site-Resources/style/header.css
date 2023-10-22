@@ -1,0 +1,42 @@
+/*---------HEADER-------*/
+
+.site-header .top-bar {
+    padding: 0.5em 0;
+    background-color: #d01919;
+    color: white;
+}
+
+
+.top-bar .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-bar .socials span {
+    display: none;
+}
+
+.top-bar .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-bar ul.socials {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.top-bar ul.socials li {
+    list-style: none;
+}
+
+.top-bar ul.socials li i {
+    color: white;
+}
+

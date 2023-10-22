@@ -1,0 +1,291 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font: 16px/1.4 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #04214c;
+}
+
+/* .container {
+    padding-inline: 14em;
+} */
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 24em;
+}
+
+.header-nav-ul {
+    display: flex;
+    gap: 2em;
+}
+
+.header-nav-ul-li a {
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+/* Button */
+.btn {
+    color: #e6310c;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 1em 3em;
+    border-radius: 2em;
+}
+
+/* Hero */
+.hero {
+    background: url('../images/header-bg.png') 100% 100% no-repeat;
+    padding: 2em 24em;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 10em;
+}
+
+.hero-content {
+    align-self: center;
+    flex-basis: 40%;
+}
+
+.hero-content-h1 {
+    font-size: 5em;
+    line-height: 1.1;
+    margin-bottom: 0.25em;
+}
+
+.hero-content-h1-span {
+    display: block;
+    font-weight: 300;
+}
+
+.hero-content-p {
+    font-size: 1.04em;
+    font-weight: 500;
+    line-height: 2;
+    width: 80%;
+    margin-bottom: 5em;
+}
+
+.hero-image {
+    position: relative;
+    flex-basis: 60%;
+    height: 745px;
+}
+
+.hero-image>img {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 125px;
+    left: -65px;
+}
+
+/* Services */
+.services {
+    padding: 2em 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #999999;
+}
+
+.services-heading {
+    padding-inline: 15em;
+    text-align: center;
+}
+
+.services-heading-h2 {
+    font-size: 3.5em;
+}
+
+.services-heading-p {
+    font-size: 1.1em;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 4em;
+}
+
+.services-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding-bottom: 4em;
+}
+
+/* Card */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ffc6c2;
+    border-radius: 0.5em;
+    padding: 2em 2em 4em 2em;
+}
+
+.card-image-img {
+    padding: 3.2em;
+}
+
+.card-image {
+    background: url('../images/service-bg.png') #ebebeb center no-repeat;
+    border-radius: 50%;
+    border: 4px solid black;
+    margin-bottom: 1em;
+}
+
+.card:first-of-type .card-image {
+    background-position: 75%;
+}
+
+.card:last-of-type .card-image {
+    background-position: 20%;
+}
+
+.card-content-h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.card-content-p {
+    line-height: 1.8;
+    color: #999999;
+}
+
+/* Care */
+.hero.care {
+    background: initial;
+    gap: 4em;
+    padding: 0em 24em;
+    margin-left: 4em;
+}
+
+.hero-content.care {
+    margin-top: 10em;
+    color: black;
+    flex-basis: 55%;
+}
+
+.hero-image.care {
+    flex-basis: 45%;
+}
+
+.hero-image.care>img {
+    object-fit: contain;
+}
+
+.hero-content-h1.care {
+    font-size: 3.5em;
+    margin-bottom: 0.7em;
+}
+
+.hero-content-p.care {
+    font-size: 1.05em;
+    margin-bottom: 6em;
+}
+
+.btn.care {
+    color: #ffffff;
+    background-color: #e6310c;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../images/cats-bg.png') 100% 100% no-repeat;
+    padding-block: 9%;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-h2 {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+}
+
+.contact-p {
+    font-size: 1.5em;
+    line-height: 1.8;
+    padding-inline: 25em;
+    margin-bottom: 3em;
+}
+
+.contact-btn span {
+    font-size: 1.5em;
+    margin-left: .75em;
+}
+
+.contact-btn span:nth-of-type(2) {
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f8f8;
+}
+
+.footer-links,
+.footer-copyright {
+    padding: 2em 24em 1em 24em;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.footer-link {
+    flex: 1 0 23%;
+}
+
+.footer-link:last-of-type {
+    flex: 1 0 30%;
+}
+
+.footer-link-h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.footer-link-h4,
+.footer-link-img {
+    margin-bottom: 1.25em;
+}
+
+.footer-link-p {
+    color: #747373;
+    line-height: 2.2;
+}
+
+.footer-copyright {
+    border-top: 1px solid #999999;
+}
+
+.footer-copyright > p {
+    font-weight: bold;
+}

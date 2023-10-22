@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font: 16px/1.4 'PT Serif', serif;
+    padding: 2em 12em;
+}
+
+.site {
+    padding: 1em 1em 0 1em ;
+    width: 55em;
+    height: 25em;
+    display: flex;
+    gap: 2em;
+    aspect-ratio: 16/9;
+    border: 2px solid white;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.4);
+    background-image: url('image/image1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    padding-bottom: 0.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.containt,
+.image {
+    flex: 1 0 45%;
+}
+
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.table th,
+.table td {
+    padding: 0 3em;
+}
+
+table,
+th,
+td {
+    border: 2px solid #53a953;
+    border-collapse: collapse;
+}
+
+.containt h1 {
+    border-bottom: 2px solid #53a953;
+    border-bottom-style: dotted;
+}
+
+.subtitle {
+    margin-top: 0.4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle p {
+    font-style: italic;
+}
+
+
+
+.gradients , .table {
+    margin: 1.6em 0;
+}
+
+
+.gradients p span {
+    color:#0a7d1e;
+    font-weight: bold;
+}
